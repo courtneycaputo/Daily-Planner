@@ -10,15 +10,15 @@ var currentHour = moment().hour();
 // Color Text Areas Based On Current Hour
 $(".time-block").each(function(){
     //Get Hour Value of Each Time Block
-    var blockHour = $(this).attr("id").split("-")[1];
+    var eventHour = $(this).attr("id").split("-")[1];
     //Get Saved Value from Local Storage and Display in Correct Time Block's Text Area
-    var textEntry = localStorage.getItem(blockHour);
+    var textEntry = localStorage.getItem(eventHour);
     var textArea = $(this).find(".description");
     textArea.val (textEntry);
     //Compare Current Hour to Time Block, Add Appropriate Class to Display Correct Color
-    if (blockHour < currentHour){
+    if (eventHour < currentHour){
         $(this).find(".description").addClass("past");
-    }else if(blockHour == currentHour){
+    }else if(eventHour == currentHour){
         $(this).find(".description").addClass("present");
     }else{
         $(this).find(".description").addClass("future");
