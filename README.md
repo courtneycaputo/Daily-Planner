@@ -4,7 +4,7 @@
 This project was to create a daily planner that would allow a user to update events within each hour block and save the event in local storage so that it would not be lost upon refresh. The hours are color coordinated to indicate if the hour is within the past, present, or future based on the current time. This planner was made with the use of JavaScript, Bootsrap, and JQuery.
 
 ## Project Screenshots
-<img src="/assets/Plannerscreenshot.png">
+<img src="/assets/PlannerScreenshot.png">
 
 ## Project Link
 Daily planner can be found <a href="https://courtneycaputo.github.io/Daily-Planner/">here</a>.
