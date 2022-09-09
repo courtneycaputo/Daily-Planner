@@ -69,3 +69,19 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.legend {
+  margin-bottom: 30px;
+}
+
+.PH {
+  background-color: #d3d3d3;
+}
+
+.CH{
+  background-color: #ff6961;
+}
+
+.FH {
+  background-color: #77dd77;
+}
